@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"gorm.io/gorm"
-
-	"your_project/database"
-	"your_project/models"
+)
+	"database"
+	"models"
 )
 
 func CreateNote(w http.ResponseWriter, r *http.Request) {

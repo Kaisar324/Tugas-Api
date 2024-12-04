@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"your_project/database"
-	"your_project/models"
-	"your_project/router"
+	"database"
+	"models"
+	"router"
 )
 
 func main() {

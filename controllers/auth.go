@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"MBKM/database"
-	"MBKM/models"
-	"MBKM/utils"
+	"database"
+	"models"
+	"utils"
 )
 
 func Register(w http.ResponseWriter, r *http.Request) {

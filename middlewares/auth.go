@@ -6,7 +6,6 @@ import (
 	"strings"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/your_project/utils"
 )
 
 func AuthMiddleware(next http.Handler) http.Handler {

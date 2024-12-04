@@ -1,10 +1,10 @@
 package router
 
 import (
-	"github.com/gorilla/mux"
+	"controllers"
+	"middlewares"
 
-	"your_project/controllers"
-	"your_project/middlewares"
+	"github.com/gorilla/mux"
 )
 
 func InitRouter() *mux.Router {
